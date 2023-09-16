@@ -14,34 +14,32 @@ export const HomeBanner = () => {
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
                     <BadgeGroup alignment="center">
-                        <BadgeMessage>Discover NutriTrack!</BadgeMessage>
+                        <BadgeMessage>Discover deja-vu</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
                 </MotionBTTContainer>
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        The effortless way to plan your meals with the power of
-                        Notion.
+                        Your memories. Reimagined. 
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Streamline your nutrition journey and achieve your
-                            health goals with ease.{" "}
+                            The new app that let's you tap back into your memories{" "}
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Features</Button>
+                            <Button href="#features">Learn more</Button>
                             <a
                                 role="button"
-                                href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
+                                href="product.js"
                                 className="btn btn--secondary lemonsqueezy-button"
                             >
-                                Get Template
+                                Try deja-vu
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
@@ -51,9 +49,11 @@ export const HomeBanner = () => {
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
                         <Image
-                            src="/nutritrack-hero-banner.png"
+
+                        /* MY NEW PHOTO OVER HERE */
+                            src="/family.png"
                             width={1024}
-                            height={680}
+                            height={680} 
                             alt="Page Banner"
                             objectFit="cover"
                             className="mx-auto"

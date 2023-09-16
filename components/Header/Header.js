@@ -16,7 +16,7 @@ export const Header = () => {
                     <h1 className="logo mb-0">
                         <Link href="/">
                             <Image
-                                src="/nutritrack.svg"
+                                src="/logo.png"
                                 alt="logo"
                                 className="h-6 w-auto"
                                 height="24"
@@ -31,10 +31,10 @@ export const Header = () => {
                     <ButtonGroup className="hidden md:block">
                         <a
                             role="button"
-                            href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
+                            href="/product.js"
                             className="btn btn--secondary lemonsqueezy-button ml-4"
                         >
-                            Get Template
+                            Try deja-vu
                             <Icon icon="material-symbols:arrow-forward-rounded" />
                         </a>
                     </ButtonGroup>

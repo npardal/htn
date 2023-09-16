@@ -9,7 +9,7 @@ const DATA = [
         title: "Template",
         items: [
             {
-                label: "Features",
+                label: "learn",
                 href: "#features"
             },
             {
@@ -78,7 +78,7 @@ export const Footer = () => {
                                         href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
                                         className="btn btn--secondary lemonsqueezy-button"
                                     >
-                                        Get Template
+                                        Try deja-vu
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
